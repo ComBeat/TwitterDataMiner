@@ -198,8 +198,8 @@ dmypy.json
 # Virtual env
 venv/
 
-# Token
-twitter_api_keys.json
+# json
+*.json
 
 # End of https://www.gitignore.io/api/python,pycharm
 
