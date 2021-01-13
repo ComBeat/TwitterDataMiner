@@ -9,7 +9,7 @@ from twitterdataminer import preprocess
 fname = '../json/tweets.json'
 
 punctuation = list(string.punctuation)
-stop = stopwords.words('english') + punctuation + ['RT', 'rt', 'via']
+stop = stopwords.words('english') + punctuation + ['RT', 'rt', 'via', '…', '’']
 
 with open(fname, 'r') as f:
     count_all = Counter()
